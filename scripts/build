@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -x
 export CDIR=`dirname "$0"`
 . "$CARGO_HOME/env"
 . "$CDIR/lib.sh"
